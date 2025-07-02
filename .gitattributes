@@ -1,0 +1,8 @@
+# 设置所有文本文件为自动规范换行符
+* text=auto
+
+# 强制文件使用 LF（Linux/Unix 换行符）
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf

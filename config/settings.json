@@ -1,0 +1,37 @@
+{
+    "wakeup":{
+        "api_key":"",
+        "keywords_path":"/home/dumbo/yd_workspace/config/Taco-Taco_en_raspberry-pi_v3_0_0.ppn",
+        "keywords":"Taco Taco",
+        "launch_audio_file":"/home/dumbo/yd_workspace/config/hello_jarvis.wav",
+        "power_off_audio_file":"/home/dumbo/yd_workspace/config/seeyou_jarvis.wav",
+    },
+
+
+    "speech2text":{
+        "api_key":"",
+        "model":"paraformer-realtime-v2",
+        "sample_rate":16000,
+        "format":"pcm"
+    },
+
+
+    "Qwen":{
+        "api_key":"",
+        "base_url":"https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "model":"qwen-turbo-0919",
+        "max_tokens":100,
+        "temperature":0.7
+    },
+
+    
+    "Sambert":{
+        "api_key":"",
+        "model":"sambert-zhiyuan-v1",
+        "sample_rate":48000,
+        "format":"wav"
+    }
+     
+        
+}
+
