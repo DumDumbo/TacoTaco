@@ -44,8 +44,8 @@
 
 ### iii. `sh/`  
 文件夹用于存储自动化脚本。
-- **`chatbot_auto_launch.sh`**：为Chatbot开机自启动脚本，其会自动检测WIFI连接情况。
-✅ If connected --> 启动脚本。
+- **`chatbot_auto_launch.sh`**：为Chatbot开机自启动脚本，其会自动检测WIFI连接情况。    
+✅ If connected --> 启动脚本。  
 ❌ If not connected --> 播放网络检查提示音。
 
 >  **⚠️ 注意事项：** 本人通过Ubuntu界面的Startup Applications设置了自动化脚本。因本人设置了用户锁屏，故需要在用户设置中勾选`开机自动登录选项，才可实现无障碍的自启动。
